@@ -22,5 +22,5 @@ elif altura < 1.70:
     print('Voce nao tem a altura adequada para engressar nas Forças Armadas.')
 if idade >= 18 and peso >= 60 and altura >= 1.70:
     print(nome, 'voce tem os requisitos para engressar nas Forças Armadas!')
-elif  idade < 18 and peso < 60 and altura < 1.70:
+else:
     print(nome, 'voce nao tem os requisitos exigidos para engressar nas Forças Armadas!')
